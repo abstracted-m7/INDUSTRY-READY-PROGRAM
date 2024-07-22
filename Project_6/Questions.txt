@@ -1,0 +1,6 @@
+1. What is SPA ?
+2. What is API ?
+3. What is called JavaScript hoisting ?
+4. What is mutable and immutable properties ?
+5. Console.log(typeof typeof(5)) => string
+6. Primitive & Nonprimitive Data type ?
