@@ -1,0 +1,24 @@
+body{
+    font-synthesis: weight;
+    background-color: rgb(243, 243, 203);
+}
+h1{
+    color: rgb(0, 204, 255);
+    text-decoration:overline;
+    font-family: cursive;
+    text-overflow: ellipsis;
+    font-weight: bolder;
+    font-size:3.8em;
+    justify-content: center;
+    display: flex;
+}
+h3{
+    justify-content: center;
+    display: flex;
+    font-weight: 500cm;
+}
+p{
+    display: flex;
+    justify-content: center;
+    font-size: 2em;
+}
