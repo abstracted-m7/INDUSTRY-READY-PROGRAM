@@ -18,3 +18,108 @@ The variables declared inside a function are function-scoped and cannot be acces
 6. Primitive & Nonprimitive Data type ?
 => Primitive : int,float,char,boolean,long,etc.
 NonPrimitive : Class,Array,string,object,Inheritance,etc.
+
+7. what is port and types of port ?
+=> A port is a virtual point where network connections start and end means that the protocal.
+Types :-
+Web traffic(Node) = 8080
+HTTP = 80
+HTTPS = 443
+SSH(Secure Shell) = 22 => NODE JS server
+FTP(File Transfer Protocol) = 21 = server and client conected with FIREWALL.
+Email Transfer Protocols :-
+MX, POP3, SMTP = [587,465] : Google & other website's protocal :: and by default port is = 25
+
+8. IP attack : Internet Protocal(IP) attack is means it breaks the IP wall and unauthorizedly access the server.
+=> BRUTE FORCE attack : Use for brake the password.
+=> DDoS attack : It means "Distributed Denial-of-Service" attack. Use for create fake internet traffic.
+
+9. What is Tokenization ?
+=> Tokenization provide internal security of an Devops architecture such as Secrets Management, Secure Deployment, Access Control, Monitoring and Auditing.
+ -Also use to prevent the IP attacks.
+ -Always works between frontend and backend.
+
+10. What is CDN ?
+=> It stands for "Content Delivery Network". It provide outlayer of an website. 
+Use : 
+ -CDN can blocked the Blocklisted IP attack. 
+ -If an Unblocked IP attack in a website then by the help of cloudflare/sucuri firstly check the behevior of this IP and then blocked it and reverse tracking this IP and mathched With gateway if that IP not avilable then that attack's IP permanently Blocked.
+ -ex : cloudflare.com, sucuri.com
+
+11. What is VPS and Cloud ?
+=> Virtual private server(VPS) is a machine that hosts all the software and data required to run an application or website.
+=> Cloud servers are virtual (not physical) servers running in a cloud computing environment that can be accessed on demand by unlimited users.
+
+13. What is Database Server Name?
+=> RDS : Remote Databse Server.
+=> Parts of server :
+          -HOST : NS (Name Server)
+          -Port : 27017
+          -Username :
+          -Password :
+Key Concept : 
+        -React can not conected with thw database.
+        -React conected with the NODE by the API.
+
+14. What is scalability ?
+=> Scalability determines how well your system can absorb rapid growth in user population.
+Types : 
+   -Vartical Scalibility : Increse RAM power.
+   -Horizontal Scalibility : Increse Hardware power.
+
+15. What is ELB ?
+=> When increse the trafic in a server then ELB increse the scalability of that server.
+-Using Algorithm : Round Robin(RR)
+
+
+16. What is access Specifier and types ?
+=> How the Outsider class access the other class it determine by the access specifer.
+- public - members are accessible from outside the class.
+- private - members cannot be accessed (or viewed) from outside the class.
+- protected - Outsider accessable but unchanged the value of the variable.
+
+
+17. Homogeneous and Heterogeneous polymorphism in java?
+=> Homogeneous means the same type. Heterogeneous means diverse types.
+ex : Array : Homogeneous || Class : Heterogeneous
+
+18. Method Overloading And Method Overriding?
+
+19. What is MVC Modeling ?
+=> Model–view–controller (MVC) is a software design pattern commonly used for developing user interfaces that divides the related program logic into three interconnected elements.
+- Model
+- View
+- Controller
+=> Implementation : 
+Employee Class : will act as model layer.
+EmployeeView Class : will act as a view layer.
+EmployeeContoller Class : will act a controller layer.
+
+20. What is Helper Class ?
+=> Helper class as a toolbox that can be used by other classes to perform task like testing if a string is a palindrome, if a given number is prime, if an array contains negative number etc. 
+
+21. What is Abstraction, Polymorphisum ?
+22. Difference between Abstraction and Interface ?
+=> Interface by default always public.
+
+23. What is TTL in networking ?
+=> Time-to-live in networking refers to the time limit imposed on the data packet to be in-network before being discarded.
+
+24. HTTP Status code :
+=> An HTTP status code is a message a website 's server sends to the browser to indicate whether or not that request can be fulfilled.
+Types :
+- 200 : success/OK
+- 204 : No Content
+- 301 : Page permanently moved to a new location.
+- 302 : Temporarily moved.
+- 401 : Unauthorized access.
+- 402 : Payment Required.
+- 403 : Forbidden.
+- 404 : Not Found.
+- 500 : Internal Server Error.
+- 502 : Bad gateway error.
+
+25. Static class and normal class?
+- Static Class: Cannot be instantiated; only contains static members.
+- Normal Class: Can be instantiated; contains instance and static members.
+
