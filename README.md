@@ -40,12 +40,13 @@ This is an INDUSTRY READY PROGRAM , a unique initiative organized by the Dept of
 
 📌Such introduction of IP attacks like BRUTE FORCE attack & DDoS attack.
 📌Defines prevention of IP attacks by the help of "Tokenization" and "CDN : cloudflare.com, sucuri.com" concepts.
-📌What's the Database server and their parts :
+📌What's the Database server and their parts [
 - HOST : NS(Name Server)
 - Port : 27017
 - Username :
 - Password :
-- 📌ELB concepts which is use to control the trafic and incress scalability of the server.
+]
+📌ELB concepts which is use to control the trafic and incress scalability of the server.
 📌Public access Specifier, Private access Specifier, protected access Specifier.
 📌Homogeneous and Heterogeneous polymorphism in java and also Method Overloading, Method Overriding in java.
 📌Description of MVC Architecture in java.
