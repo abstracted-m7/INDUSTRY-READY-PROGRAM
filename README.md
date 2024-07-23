@@ -31,12 +31,12 @@ This is an INDUSTRY READY PROGRAM , a unique initiative organized by the Dept of
 
 🖇️Day 2 (Jul 23 , 2024 ) : 
 📌Discus about port  and their types : 
-👉 Web traffic(Node) = 8080
-👉 HTTP = 80
-👉 HTTPS = 443
-👉 SSH(Secure Shell) = 22 => NODE JS server
-👉 FTP(File Transfer Protocol) = 21 = server and client conected with FIREWALL.
-👉 Email Transfer Protocols : MX, POP3, SMTP = [587,465] : Google & other website's protocal :: and by default port is = 25
+- Web traffic(Node) = 8080
+- HTTP = 80
+- HTTPS = 443
+- SSH(Secure Shell) = 22 => NODE JS server
+- FTP(File Transfer Protocol) = 21 = server and client conected with FIREWALL.
+- Email Transfer Protocols : MX, POP3, SMTP = [587,465] : Google & other website's protocal :: and by default port is = 25
 
 📌Such introduction of IP attacks like BRUTE FORCE attack & DDoS attack.
 📌Defines prevention of IP attacks by the help of "Tokenization" and "CDN : cloudflare.com, sucuri.com" concepts.
