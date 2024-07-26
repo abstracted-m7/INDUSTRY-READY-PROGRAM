@@ -1,0 +1,28 @@
+STEP 1: node-v18.20.4
+STEP 2: not check the "Automatically install" section
+STEP 3: next, install, finish;
+
+
+In command prompt :-
+version check : node -v 
+
+
+What is Middleware?
+=>It works for accessing and providing the client side's.
+It performs in Request(Read) section in REPL.
+
+Parameters of the EXPRESS routing JS ?
+=>Req() : Request.
+Res(): Response.
+next(): declare the next execution, jump one execution to another execution.
+
+What is Event loop ?
+=> 
+
+What is REPL ?
+=> REPL : Read Eval Print Loop
+
+Read : Read the user instructions.
+Eval : Evaluate the Instructions(Execute).
+Print : Print the result.
+Loop : Perform loops until we got outcome.
