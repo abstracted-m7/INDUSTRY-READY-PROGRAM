@@ -4,25 +4,19 @@ STEP 3: next, install, finish;
 
 
 In command prompt :-
-version check : node -v 
+
+- version check : node -v  : v18.20.4
+- Package check : npm -v : 10.7.0
+- New Package creation : npm init 
+- showing files : ls
+- run a js file in prompt :- node .\index.js
+- Quit from terminal : ctrl+c
 
 
-What is Middleware?
-=>It works for accessing and providing the client side's.
-It performs in Request(Read) section in REPL.
 
-Parameters of the EXPRESS routing JS ?
-=>Req() : Request.
-Res(): Response.
-next(): declare the next execution, jump one execution to another execution.
+MongoDB :-
+1. MongoDB Compass :- its a tool where we maipulate the data. 
+--> https://downloads.mongodb.com/compass/mongodb-compass-1.43.4-win32-x64.exe
 
-What is Event loop ?
-=> 
-
-What is REPL ?
-=> REPL : Read Eval Print Loop
-
-Read : Read the user instructions.
-Eval : Evaluate the Instructions(Execute).
-Print : Print the result.
-Loop : Perform loops until we got outcome.
+2. MongoDB community Edition install.
+ --> (https://www.mongodb.com/try/download/community-kubernetes-operator )

@@ -6,63 +6,39 @@
 6. Primitive & Nonprimitive Data type ?
 
 
-26-07-2024 :-
+7. What is Middleware?
+=>It works for accessing and providing the client side's. And It performs in Request(Read) section in REPL.
 
-JAVASCRIPT PRECTICE :
+8. Parameters of the EXPRESS routing JS ?
+- Req() : Request.
+- Res(): Response.
+- next(): declare the next execution, jump one execution to another execution.
 
-let txt = "ABCDskfjnwigcavfhwJIDFNHADFSL sdfoiwfAJJ";
+9. What is Event loop ?
+=> 
 
-console.log("Length of the string : "+txt.length);
-console.log("Value of index no 3 is : "+txt.charAt(3));
-console.log("Value of index no 4 using at() method is : "+txt.at(4));
-console.log("Value of index no 2 using [] is : "+txt[2]);
-console.log("Lower formate : "+txt.toLowerCase());
-console.log("Lower formate : "+txt.toUpperCase());
-console.log("Trim the whitespace : "+txt.trim());
-console.log("ASCII CODE of 'A' is : "+txt.charCodeAt(0));
-console.log("\n\n");
+10. What is REPL ?
+=> REPL : Read Eval Print Loop
+- Read : Read the user instructions.
+- Eval : Evaluate the Instructions(Execute).
+- Print : Print the result.
+- Loop : Perform loops until we got outcome.
 
-let anotherTxt = "Hii their..!!";
-console.log("Concate two string : "+txt.concat(anotherTxt));
-console.log("\n\n");
+11. What is EJS , PUG?
+=> Its use in "view" part of a MVC model.
 
-console.log("Substring :- ");
-console.log("Substring of the txt from index 2 to 7 : "+txt.substring(2,7));
-console.log("The substring from index 2 to 7 letters : "+txt.substr(2,7));
-console.log("\n\n");
+12. What is MVC Modeling ?
 
-console.log("Slicing :- ");
-console.log("Slice the 'anotherTxt' value : "+anotherTxt.slice(2,4));
-console.log("Try programiz.pro");
-console.log("\n\n");
+13. What is start,nodemon keys in script function of pakage.json file?
+=> "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js", 
+    "dev": "nodemon index.js"
+  }
+- "start" : Use to run the js file in terminal by "npm start".
+- "nodemon" : Use to run the script in a running terminal. we can change the code without terminate the running terminal prompt.
+- "dev" : Start a file for developers by using "npm run dev".
 
-console.log("Spliting :- ");
-console.log("Split the 'anotherTxt' value : "+anotherTxt.split(","));
-
-
-let arr=[...anotherTxt];
-
-console.log(arr);
-console.log("Using for-of :- ");
-for(let item of arr){
-    console.log(item);
-}
-
-console.log("Using for-in :-");
-for(let x in arr){
- console.log(x+" :"+arr[x]);   
-}
-
-
-let arr=[{id:1 , name:"jone"},{id:2 , name:"mark"},{id:3 , name:"hlw"}];
-for(let item in arr){
-    if(arr[item].id==2){
-        console.log(arr[item])
-    }
-}
-
-for(let item of arr){
-    if(item.id == 2){
-        console.log(item)
-    }
-}
+14. NPM install format ?
+=> npm install PackageName -g
+-g = global Package
