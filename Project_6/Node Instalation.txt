@@ -11,7 +11,7 @@ In command prompt :-
 - showing files : ls
 - run a js file in prompt :- node .\index.js
 - Quit from terminal : ctrl+c
-
+- Clean installation : npm ci PackageName
 
 
 MongoDB :-

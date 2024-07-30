@@ -42,3 +42,9 @@
 14. NPM install format ?
 => npm install PackageName -g
 -g = global Package
+
+15. Types of module ? 
+=> internal,external,inbuild.
+
+16. Port of node , mongo , react ?
+=> 8080 , 20170, 3000 respectivily. 
